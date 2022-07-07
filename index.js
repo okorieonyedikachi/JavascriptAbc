@@ -51,14 +51,14 @@ alert ( 4 ** (1/2) ); //exponentiation
 
 alert ( a );
 
-// let year = prompt('What year was I born','');
-// if (year < 1997) {
-//     alert( 'Too early' );
-// } else if ( year > 1997) {
-//     alert( 'Too late' );
-// } else {
-//     alert ( 'Exactly' );
-// }
+let year = prompt('What year was I born','');
+if (year < 1997) {
+    alert( 'Too early' );
+} else if ( year > 1997) {
+    alert( 'Too late' );
+} else {
+    alert ( 'Exactly' );
+}
 
 
 let value = prompt('What is the "official" name of JavaScript?', '');
