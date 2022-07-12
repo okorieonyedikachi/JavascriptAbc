@@ -28,7 +28,7 @@ alert ('Hello');
 // let x = 1, y = 4;
 // alert ( y - x ); //binary operator
 
-alert ( 4 ** (1/2) ); //exponentiation
+// alert ( 4 ** (1/2) ); //exponentiation
  
 // //String concatenation with binary +
 // alert( '1'+ 2 + 2 );
@@ -49,25 +49,40 @@ alert ( 4 ** (1/2) ); //exponentiation
 // let counter = 7;
 // let a = ++counter;
 
-alert ( a );
+// alert ( a );
 
-let year = prompt('What year was I born','');
-if (year < 1997) {
-    alert( 'Too early' );
-} else if ( year > 1997) {
-    alert( 'Too late' );
-} else {
-    alert ( 'Exactly' );
+// let year = prompt('What year was I born','');
+// if (year < 1997) {
+//     alert( 'Too early' );
+// } else if ( year > 1997) {
+//     alert( 'Too late' );
+// } else {
+//     alert ( 'Exactly' );
+// }
+
+
+// let value = prompt('What is the "official" name of JavaScript?', '');
+
+// if (value == 'ECMAScript') {
+//     alert('Right!');
+// } else {
+//     alert("You don't know? ECMAScript!");
+// }
+
+// // let result = (a + b < 4) ? 'Below' : 'Over';
+
+// let hour = 9;
+// if (hour < 10 || hour > 18) {
+//     alert ( 'The office is closed' );
+// }
+
+let user = prompt ( "Who's there?", '');
+if (user === 'Admin'){
+  prompt ('Password?', '');
+
+}else if ( user == '' || user == null) {
+    alert ('Cancelled');
 }
-
-
-let value = prompt('What is the "official" name of JavaScript?', '');
-
-if (value == 'ECMAScript') {
-    alert('Right!');
-} else {
-    alert("You don't know? ECMAScript!");
+ else   {
+    alert ("I don't know you");
 }
-
-let result = (a + b < 4) ? 'Below' : 'Over';
-
