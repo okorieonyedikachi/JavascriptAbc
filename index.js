@@ -76,13 +76,24 @@ alert ('Hello');
 //     alert ( 'The office is closed' );
 // }
 
-let user = prompt ( "Who's there?", '');
-if (user === 'Admin'){
-  prompt ('Password?', '');
-
-}else if ( user == '' || user == null) {
-    alert ('Cancelled');
-}
- else   {
-    alert ("I don't know you");
-}
+// let user = prompt ( "Who's there?", '');
+// if (user === 'Admin'){
+// let password = prompt ('Password?', '');{
+//    if ( password == 'TheMaster' ) {
+//     alert ('Welcome');
+//    } else if ( password == '' || password == null){
+//     alert ('Canceled');
+//    } else { 
+//      alert ('Wrong password');
+//    }  
+//   }
+// }else if ( user == '' || user == null) {
+//     alert ('Cancelled');
+// }
+//  else   {
+//     alert ("I don't know you");
+// }
+let firstName = null;
+let lastName = null;
+let nickName = "Raveen";
+alert (firstName ?? lastName ?? nickName ?? 'Anonymous'); //Nullish Coalescing operator
