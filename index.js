@@ -1,4 +1,4 @@
-alert ('Hello');
+// alert ('Hello');
 // let message;
 // message = 'Hello';
 // console.log(message);
@@ -99,29 +99,50 @@ alert ('Hello');
 // alert (firstName ?? lastName ?? nickName ?? 'Anonymous'); //Nullish Coalescing operator
 
 // Understanding the switch statement and syntax
-let a = +prompt('a?', '');
-switch (a) {
-    case 0:
-     alert ( 0 );
-     break;
-    case 1:
-        alert ( 1 );
-        break;
-    case 2:
-    case 3:
-        alert( '2,3' );
-        break;   
+// let a = +prompt('a?', '');
+// switch (a) {
+//     case 0:
+//      alert ( 0 );
+//      break;
+//     case 1:
+//         alert ( 1 );
+//         break;
+//     case 2:
+//     case 3:
+//         alert( '2,3' );
+//         break;   
+// }
+// if ( browser == 'Edge' ) {
+//     alert ( "You've got the Edge!" );
+// }
+// else if ( browser == 'Chrome'
+// || bowser == 'Firefox'
+// || browser == 'Safari'
+// || browser == 'Opera'
+// ){
+//     alert ( 'Okay we support these browsers too' );
+// }
+// else {
+//     alert ( 'We hope that this page looks ok!' );
+// }
+// function showMessage() {
+//     let message = "Hello, I'm JavaScript!";
+//     alert ( message );
+// }
+
+
+
+
+let sumNum = (a, b, c) => {
+    // if (a >= 2) {
+    //     return a + b - c
+    // }
+    // return "error "
+
+    return a >= 2 ?  a + b - c :  "error "
+    
+
 }
-if ( browser == 'Edge' ) {
-    alert ( "You've got the Edge!" );
-}
-else if ( browser == 'Chrome'
-|| bowser == 'Firefox'
-|| browser == 'Safari'
-|| browser == 'Opera'
-){
-    alert ( 'Okay we support these browsers too' );
-}
-else {
-    alert ( 'We hope that this page looks ok!' );
-}
+console.log(sumNum(2, 2, 2));
+
+console.log(sumNum(5, 2, 3));
