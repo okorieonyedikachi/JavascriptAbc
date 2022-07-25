@@ -130,19 +130,47 @@
 //     alert ( message );
 // }
 
+// let sumNum = (a, b, c) => {
+//     // if (a >= 2) {
+//     //     return a + b - c
+//     // }
+//     // return "error "
 
-
-
-let sumNum = (a, b, c) => {
-    // if (a >= 2) {
-    //     return a + b - c
-    // }
-    // return "error "
-
-    return a >= 2 ?  a + b - c :  "error "
+//     return a >= 2 ?  a + b - c :  "error "
     
 
-}
-console.log(sumNum(2, 2, 2));
+// }
+// console.log(sumNum(2, 2, 2));
 
-console.log(sumNum(5, 2, 3));
+// console.log(sumNum(5, 2, 3));
+    
+let checkAge = (age) => {
+    return age > 18 ? true : confirm ('Did parents allow you?');
+}
+function min (a, b) {
+    return a < b ? a : b;
+}
+console.log(min(2,5));
+console.log(min(3, -1));
+console.log(min(1, 1));
+
+arr1 = [1,2,3,4,5,6,7,8,8,9,9,7,6,4,3,2,4,6,8,5,3,6,7,6,4,3,5,78,5]
+console.log("we starting ");
+// console.log(arr1[9]);
+// console.log(arr1.length);
+for(i=0; i < arr1.length; i ++){
+    console.log(arr1[i] * 2);
+}
+for (daniella=0; daniella < 10; daniella ++){
+    console.log("daniella");
+    console.log("Emmanuel")
+}
+arr1 = ["dee","randy","danny","bee","emm","tee","vee","guu","gee","blue"]
+for (i=0; i < arr1.length; i ++){
+    console.log(arr1[i]);
+}
+
+object1 = {
+    value:"key"
+}
+console.log(object1.value)
